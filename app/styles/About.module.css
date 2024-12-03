@@ -1,0 +1,31 @@
+.about {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Default black text */
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #007bff; /* Vivid blue for heading */
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #000000; /* Black text */
+}
+
+.contact {
+  color: #000000; /* Black text */
+}
+
+.about a {
+  color: #007bff; /* Vivid blue for links */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.about a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}

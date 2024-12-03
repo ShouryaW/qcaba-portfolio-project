@@ -1,0 +1,47 @@
+.sourceCode {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #007bff; /* Vivid blue for heading */
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  color: #000000; /* Black text */
+}
+
+.highlight {
+  color: #007bff; /* Vivid blue for emphasis */
+  font-weight: 700;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff; /* Vivid blue for button */
+  color: #ffffff; /* White text for button */
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(0);
+}

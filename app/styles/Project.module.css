@@ -1,0 +1,112 @@
+/* Overall Section Styling */
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 1rem;
+  color: #000000; /* Black text */
+  background-color: #ffffff; /* White background */
+}
+
+/* Logo Wrapper Styling */
+.logoWrapper {
+  margin-bottom: 1.5rem; /* Adjusted spacing */
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Video Text Styling */
+.videoText {
+  font-size: 1.5rem; /* Slightly smaller text */
+  font-weight: 600; /* Semi-bold for a polished look */
+  color: #333; /* Dark gray color */
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px; /* Subtle spacing between letters */
+  text-transform: capitalize; /* Only capitalize the first letter of each word */
+  animation: pulse 2s infinite; /* Add the pulse animation */
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1); /* Normal size */
+  }
+  50% {
+    transform: scale(1.05); /* Slightly larger */
+  }
+}
+
+/* Video Wrapper Styling */
+.videoWrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #007bff; /* Subtle blue border */
+}
+
+.video {
+  width: 100%;
+  max-height: 500px;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Description Wrapper */
+.descriptionWrapper {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 800px;
+}
+
+.firstParagraph {
+  margin-bottom: 1.5rem;
+  color: #000000; /* Black text for first paragraph */
+  line-height: 1.8;
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #007bff; /* Vivid blue for main headings */
+}
+
+.subHeading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  color: #007bff; /* Vivid blue for subheadings */
+}
+
+.subSubHeading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  color: #007bff; /* Vivid blue for smaller headings */
+}
+
+.highlight {
+  color: #007bff; /* Vivid blue for emphasized text */
+}
+
+/* Scoped List Styling */
+.list {
+  padding-left: 20px;
+  margin-bottom: 1rem;
+  color: #000000; /* Black text */
+}
+
+.nestedList {
+  padding-left: 20px; /* Nested list styling */
+}

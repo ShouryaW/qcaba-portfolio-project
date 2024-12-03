@@ -1,0 +1,50 @@
+.contact {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.submit {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #ffffff; /* White text for button */
+  background-color: #007bff; /* Vivid blue button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.altContact {
+  margin-top: 1rem;
+}
+
+.altContact a {
+  color: #007bff; /* Vivid blue for links */
+  text-decoration: none;
+}
+
+.altContact a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Default black text */
+  border-top: 1px solid #e0e0e0; /* Subtle separator */
+}
+
+.footer a {
+  color: #007bff; /* Vivid blue for links */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+.copyright {
+  color: #000000; /* Black text */
+}
